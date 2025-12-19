@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AlfaPetshop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .contact-box {
+            flex: 1;
+            min-width: 280px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        .contact-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #088178;
+        }
+        .contact-box p {
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .contact-box i {
+            color: #088178;
+            margin-right: 10px;
+            width: 20px;
+        }
+        .contact-box a {
+            color: #088178;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .map-container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <section id="header">
+        <a href="index.html"><img src="img/logo.png" class="logo" alt="Logo"></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- Contact Details -->
+    <section class="section-p1">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">📞 Informasi Kontak</h2>
+            
+            <div class="contact-details">
+                <div class="contact-box">
+                    <h3><i class="fas fa-map-marker-alt"></i> Alamat Toko</h3>
+                    <p>Tejoagung, Kec. Metro Timur</p>
+                    <p>Kota Metro, Lampung</p>
+                    <p style="margin-top: 15px;">
+                        <a href="https://maps.app.goo.gl/bBkNgxNR1Jn9iKzYA" target="_blank">
+                            <i class="fas fa-map"></i> Buka di Google Maps
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-box">
+                    <h3><i class="fas fa-phone"></i> Telepon</h3>
+                    <p>
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:085380006668">085380006668</a>
+                    </p>
+                    <p style="margin-top: 15px; color: #999; font-size: 0.9rem;">
+                        Hubungi kami untuk informasi produk dan pemesanan
+                    </p>
+                </div>
+
+                <div class="contact-box">
+                    <h3><i class="fas fa-clock"></i> Jam Operasional</h3>
+                    <p><i class="fas fa-calendar-day"></i> Senin - Sabtu</p>
+                    <p><i class="fas fa-clock"></i> 08:00 - 21:00 WIB</p>
+                    <p style="margin-top: 10px; color: #f44336; font-weight: 600;">
+                        <i class="fas fa-times-circle"></i> Minggu: Tutup
+                    </p>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-container">
+                <h3 style="margin-bottom: 20px; color: #088178; font-size: 1.5rem;">
+                    <i class="fas fa-map-marked-alt"></i> Lokasi Kami
+                </h3>
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3973.8064842327685!2d105.3164145880829!3d-5.134840841776508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40bfebc04b84f1%3A0xaf284eec3adf6b7e!2sAlfa%20petshop!5e0!3m2!1sid!2sid!4v1766128270172!5m2!1sid!2sid"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <a href="https://maps.app.goo.gl/bBkNgxNR1Jn9iKzYA" target="_blank" style="display: block; margin-top: 15px; text-align: center; color: #088178; text-decoration: none; font-weight: 600; font-size: 1.05rem;">
+                    <i class="fas fa-map-marker-alt"></i> Buka di Google Maps →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Alamat:</strong> Tejoagung, Kec. Metro Timur, Kota Metro, Lampung</p>
+            <p><strong>No Telepon:</strong> 085380006668</p>
+            <p><strong>Buka:</strong> 08:00-21:00, Senin-Sabtu</p>
+        </div>
+
+        <div class="col">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2024, AlfaPetshop - Katalog Produk Makanan Kucing</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile menu
+        const bar = document.getElementById('bar');
+        const close = document.getElementById('close');
+        const navbar = document.getElementById('navbar');
+        
+        if (bar) {
+            bar.addEventListener('click', () => navbar.classList.add('active'));
+        }
+        
+        if (close) {
+            close.addEventListener('click', () => navbar.classList.remove('active'));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AlfaPetshop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <section id="header">
+        <a href="index.html"><img src="img/logo.png" class="logo" alt="Logo"></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section id="about-head" class="section-p1">
+        <img src="img/banner/b1.jpg" alt="About">
+        <div>
+            <h2>Tentang AlfaPetshop</h2>
+            <p>
+                AlfaPetshop adalah toko perlengkapan hewan peliharaan yang berlokasi di Tejoagung, Kec. Metro Timur, Kota Metro, Lampung. 
+                Kami menyediakan berbagai macam produk makanan kucing berkualitas dengan harga terjangkau.
+            </p>
+            <p>
+                Dengan pengalaman bertahun-tahun dalam industri pet shop, kami berkomitmen untuk menyediakan 
+                produk terbaik untuk kucing kesayangan Anda. Kepuasan pelanggan adalah prioritas utama kami.
+            </p>
+
+            <h3 style="margin-top: 30px;">Mengapa Memilih Kami?</h3>
+            <ul style="margin-top: 15px; line-height: 2;">
+                <li>✅ Produk berkualitas tinggi dan original</li>
+                <li>✅ Harga terjangkau dan kompetitif</li>
+                <li>✅ Gratis ongkir untuk area tertentu</li>
+                <li>✅ Pelayanan ramah dan profesional</li>
+                <li>✅ Lokasi strategis dan mudah dijangkau</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Alamat:</strong> Tejoagung, Kec. Metro Timur, Kota Metro, Lampung</p>
+            <p><strong>No Telepon:</strong> 085380006668</p>
+            <p><strong>Buka:</strong> 08:00-21:00, Senin-Sabtu</p>
+        </div>
+
+        <div class="col">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2024, AlfaPetshop - Katalog Produk Makanan Kucing</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile menu
+        const bar = document.getElementById('bar');
+        const close = document.getElementById('close');
+        const navbar = document.getElementById('navbar');
+        
+        if (bar) {
+            bar.addEventListener('click', () => navbar.classList.add('active'));
+        }
+        
+        if (close) {
+            close.addEventListener('click', () => navbar.classList.remove('active'));
+        }
+    </script>
+</body>
+</html>
